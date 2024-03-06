@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabs</title>
+  <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
+  <link rel="stylesheet" href="app/css/style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <h1>Itališki desertai</h1>
+  <div class="container">
+  <div class="buttons">
+    <button onclick="showTab(event, 'first')">Cannoli</button>
+    <button onclick="showTab(event, 'second')">Sfogliatelle</button>
+    <button onclick="showTab(event, 'third')">Zabaglione</button>
+  </div>
+
+  <div class="tabs">
+    <div id="first" class="tab">
+      <img src="app/images/image1.jpg" alt="Cannoli" />
+      <p>
+        Cannoli yra pyragaičiai, sudaryti iš vamzdelio formos keptos tešlos kevalų, užpildytų saldžiu kreminiu įdaru,
+        kurio sudėtyje yra rikotos – sicilietiškos virtuvės pagrindo. Jų dydis svyruoja nuo 9 iki 20 centimetrų.
+        Žemyninėje Italijoje jie paprastai žinomi kaip cannoli siciliani
+      </p>
+    </div>
+    <div id="second" class="tab">
+      <img src="app/images/image2.webp" alt="Sfogliatelle" />
+      <p>
+        Sfogliatella, JAV kartais vadinama omaro uodega, yra kriauklės formos įdarytas itališkas pyragas, kilęs iš
+        Kampanijos. Sfogliatella reiškia „mažas, plonas lapas / sluoksnis“, nes pyrago tekstūra primena sukrautus lapus.
+      </p>
+    </div>
+    <div id="third" class="tab">
+      <img src="app/images/image3.jpg" alt="Zabaglione" />
+      <p>
+        Zabaione arba zabaglione yra itališkas desertas arba kartais gėrimas, gaminamas iš kiaušinių trynių, cukraus ir
+        saldaus vyno. Kai kuriose recepto versijose yra spiritinių gėrimų, tokių kaip konjakas. Desertinis variantas yra
+        lengvas kremas, išplaktas taip, kad įtrauktų daug oro.
+      </p>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
